@@ -9004,7 +9004,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CrossCloudCsiKpiCatalog</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CrossCloudCsiMyMetrics</tab>
