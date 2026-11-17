@@ -880,6 +880,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Days_Open__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Description</field>
         <readable>true</readable>
@@ -3769,6 +3774,10 @@
         <field>WorkStepTemplate.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Sample_flow</flow>
+    </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>customer_satisfaction</flow>
