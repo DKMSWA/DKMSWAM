@@ -131,6 +131,18 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorld</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MissingUtilityClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>trlhdtips__tt_UtilController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -139,6 +151,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountI_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -877,6 +894,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Days_Open__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3769,6 +3791,10 @@
         <field>WorkStepTemplate.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Sample_flow</flow>
+    </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>customer_satisfaction</flow>
