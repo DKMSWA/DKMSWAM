@@ -1,6 +1,12 @@
+
+/**
+ * Utility class that creates and retrieves a hello world Account record.
+ */
 public class HelloWorld {
 
-    // Creates an Account with standard fields and saves it
+    /**
+     * Creates and inserts an Account with standard fields for the given account name.
+     */
     public static Account createHelloAccount(String accName) {
         Account acc = new Account(
             Name = accName,
@@ -18,7 +24,9 @@ public class HelloWorld {
         return acc;
     }
 
-    // Creates the account, queries it back, and prints a greeting
+    /**
+     * Creates the account, queries it back, and prints a greeting message.
+     */
     public static String sayHello() {
         Account acc = createHelloAccount('Hello World Inc.');
         if (acc == null) {
